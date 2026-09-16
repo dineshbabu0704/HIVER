@@ -1,0 +1,21 @@
+System accuracy: 0.99
+System macro-F1: 0.99
+Majority baseline accuracy: 0.1
+                        precision    recall  f1-score   support
+
+account_authentication       1.00      1.00      1.00        20
+ app_crash_performance       1.00      0.95      0.97        20
+               battery       1.00      1.00      1.00        20
+          connectivity       1.00      1.00      1.00        20
+       device_hardware       1.00      0.95      0.97        20
+       general_support       0.95      1.00      0.98        20
+            ios_update       1.00      1.00      1.00        20
+           media_music       1.00      1.00      1.00        20
+notifications_messages       0.95      1.00      0.98        20
+      purchase_billing       1.00      1.00      1.00        20
+
+              accuracy                           0.99       200
+             macro avg       0.99      0.99      0.99       200
+          weighted avg       0.99      0.99      0.99       200
+
+CAVEAT: gold labels are pre-labeled with the same rubric used for training; human verification and leakage-safe evaluation are required before reporting these as final results.

@@ -1,0 +1,24 @@
+{
+  "intent": "battery",
+  "confidence": 0.9974453930113597,
+  "decision": "auto_handle",
+  "reason": "routine support issue with sufficient intent confidence",
+  "reply": "@168280 Let's take a look at this together. DM us your iOS version to get started.",
+  "evidence": [
+    {
+      "customer_example": "@AppleSupport My battery is dying very quickly after the 11 upgrade",
+      "historical_reply": "@168280 Let's take a look at this together. DM us your iOS version to get started. https://t.co/GDrqU22YpT",
+      "similarity": 0.5097171836474202
+    },
+    {
+      "customer_example": "@AppleSupport hey guys can u plz check the health of my iPhone battery. It is draining very quickly. 20% down in 30 mins",
+      "historical_reply": "@462519 We can look at this with you. Please DM us. https://t.co/GDrqU22YpT",
+      "similarity": 0.3906693695194156
+    },
+    {
+      "customer_example": "@AppleSupport Hi I m using I phone 7. I m facing an issue that my phones battery is draining very quickly. Version 11.0.2\nPlz help",
+      "historical_reply": "@373993 You can update to iOS 11.0.3.  We recommend backing up your device before updating. Here's how: https://t.co/4f8hwT5to6",
+      "similarity": 0.3804218217891913
+    }
+  ]
+}
